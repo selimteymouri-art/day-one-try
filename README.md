@@ -1,21 +1,23 @@
-# Next.js template
+# Day One Try
 
-This is a Next.js template with shadcn/ui.
+Learning vibe coding one project at a time — this is one of my first builds as I explore React, Next.js, and modern UI development.
 
-## Adding components
+This project is a responsive cinematic hero section featuring an animated glow horizon and accessible reduced-motion behavior.
 
-To add components to your app, run the following command:
+## Built with
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui structure
+- Framer Motion
+
+## Run locally
 
 ```bash
-npx shadcn@latest add button
+npm install
+npm run dev
 ```
 
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+Then open [http://localhost:3000](http://localhost:3000).
